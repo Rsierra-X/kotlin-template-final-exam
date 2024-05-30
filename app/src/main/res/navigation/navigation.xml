@@ -9,7 +9,11 @@
         android:id="@+id/insertFragment"
         android:name="com.test.template_final_exam.view.InsertFragment"
         android:label="fragment_insert"
-        tools:layout="@layout/fragment_insert" />
+        tools:layout="@layout/fragment_insert" >
+        <action
+            android:id="@+id/action_insertFragment_to_selectFragment"
+            app:destination="@id/selectFragment" />
+    </fragment>
     <fragment
         android:id="@+id/selectFragment"
         android:name="com.test.template_final_exam.view.SelectFragment"

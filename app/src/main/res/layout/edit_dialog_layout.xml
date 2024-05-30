@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".view.InsertFragment">
-
+    android:padding ="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,19 +30,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/dueno"/>
-
-    <Button
-        android:id="@+id/btn_grabar"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Grabar Mascota"/>
-
-    <Button
-        android:id="@+id/btn_listado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ver Mascotas"/>
-
 
 </LinearLayout>
