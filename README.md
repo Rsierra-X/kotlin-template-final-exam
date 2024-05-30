@@ -4,7 +4,7 @@
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
-# Room
+#Room
 room = { module= "androidx.room:room-ktx", version.ref="room" }
 room-runtime = { module= "androidx.room:room-runtime", version.ref="room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref="room" }
